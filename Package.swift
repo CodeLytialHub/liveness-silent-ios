@@ -16,8 +16,8 @@ let package = Package(
         // `import CodelyticalLivenessSilentSDK` resolves to.
         .binaryTarget(
             name: "CodelyticalLivenessSilentSDK",
-            url: "https://github.com/CodeLytialHub/liveness-silent-ios/releases/download/1.0.0/CodelyticalLivenessSilentSDK.xcframework.zip",
-            checksum: "bf4e860e8e2e1c4dc2f64695881068784d98585a3a992083ff0c47d8edb6cbcc"
+            url: "https://github.com/CodeLytialHub/liveness-silent-ios/releases/download/1.0.1/CodelyticalLivenessSilentSDK.xcframework.zip",
+            checksum: "5b26a5806a72860bb6a4433502a2fbcd8d77ea325e9427ffb91e16768f924eeb"
         ),
         // ncnn model weights (.bin/.param) + config.json. These aren't
         // sensitive the way the Swift/C++ source is — the Android build

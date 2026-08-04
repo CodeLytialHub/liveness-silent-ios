@@ -111,6 +111,15 @@ LivenessSdk.validate(apiKey: "fg_live_YOUR_KEY_HERE") { success, error in
 }
 ```
 
+`validate` also takes an optional `baseURL`, defaulting to `LivenessSdk.defaultBaseURL` (CodeLytical's current portal domain). You won't normally need to touch this — it's there so that if the portal ever moves to a new domain, you can point at it without waiting on an SDK update:
+
+```swift
+LivenessSdk.validate(
+    apiKey: "fg_live_YOUR_KEY_HERE",
+    baseURL: URL(string: "https://new-portal-domain.codelyticalhub.com")!
+) { success, error in ...
+```
+
 The callback is always called on the **main thread**.
 
 ### Present the Liveness Screen

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CodelyticalLivenessSilentSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Face liveness / anti-spoofing SDK for iOS (SwiftUI), on-device via ncnn.'
   s.description      = <<-DESC
     CodelyticalLivenessSilentSDK provides a drop-in SwiftUI face liveness
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # only supports a single :http source per spec and s.resources below needs
   # both to be present after extraction.
   s.source = {
-    :http => 'https://github.com/CodeLytialHub/liveness-silent-ios/releases/download/1.0.0/CodelyticalLivenessSilentSDK-CocoaPods.zip'
+    :http => 'https://github.com/CodeLytialHub/liveness-silent-ios/releases/download/1.0.1/CodelyticalLivenessSilentSDK-CocoaPods.zip'
   }
 
   s.vendored_frameworks = 'CodelyticalLivenessSilentSDK.xcframework'
