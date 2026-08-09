@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/iOS-17.0%2B-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/iOS-15.0%2B-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Swift-5.9-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/CocoaPods-1.0.0-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/CocoaPods-1.0.3-red?style=flat-square" />
   <img src="https://img.shields.io/badge/SPM-supported-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/License-Commercial-lightgrey?style=flat-square" />
 </p>
@@ -28,7 +28,7 @@ CodelyticalLivenessSilentSDK gives your iOS app a fully automatic face liveness 
 
 ## Requirements
 
-- iOS 17.0+
+- iOS 15.0+
 - Xcode 16+
 - A CodeLytical API key (see below)
 
@@ -51,7 +51,7 @@ Keep your key private. Do not commit it to a public repository.
 ### CocoaPods
 
 ```ruby
-pod 'CodelyticalLivenessSilentSDK', '~> 1.0.0'
+pod 'CodelyticalLivenessSilentSDK', '~> 1.0.3'
 ```
 
 ```bash
@@ -71,7 +71,7 @@ https://github.com/CodeLytialHub/liveness-silent-ios
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/CodeLytialHub/liveness-silent-ios", from: "1.0.0")
+.package(url: "https://github.com/CodeLytialHub/liveness-silent-ios", from: "1.0.3")
 ```
 
 ---
