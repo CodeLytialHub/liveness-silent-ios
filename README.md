@@ -36,7 +36,7 @@ CodelyticalLivenessSilentSDK gives your iOS app a fully automatic face liveness 
 
 ## Step 1 — Get Your API Key
 
-1. Go to **[https://www.codelyticalhub.com](https://www.codelyticalhub.com)**
+1. Go to **[https://faceguard.codelyticalhub.com](https://faceguard.codelyticalhub.com)**
 2. Create an account or sign in
 3. Navigate to the **Dashboard → API Keys**
 4. Click **Generate Key**
